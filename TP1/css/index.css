@@ -1,0 +1,64 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+/*HEADER*/
+header {
+    position: sticky;
+    top: 0;
+    left: 0; 
+    width: 100%;   
+    display: flex;
+    justify-content: space-between;
+    background-color: #db1717;
+    box-shadow: 0 5px 5px #333;}
+
+    header #logo img {
+        object-fit: contain;
+        margin-top: 0px;
+        box-shadow: 0 5px 5px #333;}
+        
+
+    a {
+        color: #ffffff;
+        text-decoration: none;}
+        a:hover {
+            color: #f0f328;}
+
+/*BODY*/
+body {
+    background-color: #ddb4b4;}
+
+/*NAV*/
+nav {
+    line-height: 8em;}
+
+
+nav > ul li {
+    display: inline-block;
+    background-color: #db1717;
+    width: 200px;
+    font-size: xx-large;
+    text-align: center;}
+
+nav > ul a {
+    display: block;    
+    border: 2px solid #f0f328;
+    width: 100%;
+    height: 100%;}
+
+form > fieldset {
+    border: solid black 2px;}
+
+
+/*FOOTER*/
+footer{
+    margin-top: 20px;    
+    text-align: center;
+    background-color: #db1717;
+    font-size: 14px;
+    color: white;
+    box-shadow: 0 -5px 5px #333;}
+    
+    footer p {
+        margin: 0;}
